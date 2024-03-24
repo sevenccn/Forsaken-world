@@ -3,7 +3,6 @@
     padding: 0;
     font-weight: 600;
     font-family: "IBM Plex Mono", monospace;
-    font-weight: 600;
     font-style: normal;
     color: #fff;
 }
@@ -16,7 +15,6 @@
 #jacketinakai,
 #armorinakai,
 #end {
-
     background-color: rgb(28, 33, 40);
     width: 10em;
     height: 5em;
@@ -24,7 +22,6 @@
 }
 
 #bovenkleding {
-
     width: 50%;
     height: 50%;
 }
@@ -80,7 +77,6 @@
 
 .container {
     margin: 0 10px;
-
 }
 
 .small {
@@ -122,13 +118,11 @@ ul {
     padding: 2% 6%;
     justify-content: space-evenly;
     text-align: center;
-
 }
 
 /* https://learn.shayhowe.com/advanced-html-css/transitions-animations/ - transitional button*/
 
 li {
-
     list-style-type: none;
 }
 
@@ -177,14 +171,13 @@ header section div {
 div p {
     font-size: 3em;
     padding: 0.5em;
-    font: bold;
+    font-weight: bold;
 }
 
 div {
     margin-top: 2em;
     display: flex;
     justify-content: center;
-
 }
 
 /* chat cpt -"kun je een glitch button voor me maken met css */
@@ -224,6 +217,8 @@ div {
     animation: glitch-animation 0.5s linear;
 }
 
+
+/* van internetstandaarden */
 footer {
     background-color: rgb(28, 33, 40);
     border: 0.125em solid rgb(3, 15, 30);
@@ -253,7 +248,6 @@ footer ul li {
 }
 
 footer ul li a {
-
     display: flex;
     color: #fff;
 }

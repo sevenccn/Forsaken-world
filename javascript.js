@@ -2,9 +2,8 @@ const shirtkenaji = document.querySelector("#shirtkenaji");
 const jacketkenaji = document.querySelector("#jacketkenaji");
 const armorkenaji = document.querySelector("#armorkenaji");
 const end = document.querySelector("#end");
-// https://forum.freecodecamp.org/t/playing-local-mp3-file-in-visual-studio-code/451363/3 - audio//
 const muziekje = new Audio('awaken-136824.mp3');
-
+// https://forum.freecodecamp.org/t/playing-local-mp3-file-in-visual-studio-code/451363/3 - audio//
 let bovenkleding = document.querySelector("#bovenkleding")
 let GeluidAan = true
 
@@ -25,13 +24,9 @@ armorkenaji.addEventListener("click", () => {
 function muziek() {
 
     if (GeluidAan == true) {
-        console.log("uit");
         muziekje.pause();
         GeluidAan = false
-
-
     } else {
-        console.log("aan")
         muziekje.play();
         GeluidAan = true
     }
