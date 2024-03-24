@@ -8,14 +8,16 @@
     color: #fff;
 }
 
+/* Al die img zijn gemaakt door mij */
 #shirtkenaji,
 #jacketkenaji,
 #armorkenaji,
 #shirtinakai,
 #jacketinakai,
-#armorinakai, #end {
+#armorinakai,
+#end {
 
-    background-color: #333;
+    background-color: rgb(28, 33, 40);
     width: 10em;
     height: 5em;
     margin: 0 30px;
@@ -27,6 +29,21 @@
     height: 50%;
 }
 
+/* Foto van pinterest: TLOU */
+.ending {
+    background-image: url('end.jpg');
+    background-size: cover;
+    height: 110vh;
+}
+
+.ending p {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+/* Al die img zijn gemaakt door mij */
 .forsaken {
     background-image: url('Background_programmeren_2.png');
     background-repeat: no-repeat;
@@ -35,11 +52,12 @@
     position: relative;
 }
 
+/* Al die img zijn gemaakt door mij */
 .choice {
     background-image: url('Character_programmeren.png');
     background-repeat: no-repeat;
     width: 100vw;
-    height: 145vh;
+    height: 150vh;
     position: relative;
 }
 
@@ -53,6 +71,7 @@
     gap: 4em;
 }
 
+/* Al die img zijn gemaakt door mij */
 .characters {
     background-color: #353B49;
     width: 100vw;
@@ -78,11 +97,12 @@
 .glitch-button {
     display: inline-block;
     padding: 20px 40px;
-    background-color: #333;
+    background-color: rgb(28, 33, 40);
     color: #fff;
     font-size: 3em;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 0.3em;
 }
 
 h1 {
@@ -100,7 +120,7 @@ h2 {
 ul {
     display: flex;
     padding: 2% 6%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
 
 }
@@ -167,35 +187,36 @@ div {
 
 }
 
+/* chat cpt -"kun je een glitch button voor me maken met css */
 @keyframes glitch-animation {
     0% {
         transform: translate(0);
-        background-color: #333;
+        background-color: rgb(43, 51, 61);
     }
 
     20% {
         transform: translate(-5px, -5px);
-        background-color: black;
+        background-color: rgb(28, 33, 40);
     }
 
     40% {
         transform: translate(5px, 5px);
-        background-color: #333;
+        background-color: rgb(43, 51, 61);
     }
 
     60% {
         transform: translate(-5px, 5px);
-        background-color: black;
+        background-color: rgb(28, 33, 40);
     }
 
     80% {
         transform: translate(5px, -5px);
-        background-color: #333;
+        background-color: rgb(43, 51, 61);
     }
 
     100% {
         transform: translate(0);
-        background-color: black;
+        background-color: rgb(28, 33, 40);
     }
 }
 
@@ -204,7 +225,7 @@ div {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgb(28, 33, 40);
     border: 0.125em solid rgb(3, 15, 30);
     width: 100vw;
     height: 3vh;
@@ -236,7 +257,3 @@ footer ul li a {
     display: flex;
     color: #fff;
 }
-
-
-
-
