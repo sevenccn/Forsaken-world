@@ -1,39 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js" defer></script>
-    <!-- https://www.vecteezy.com/vector-art/33841036-pixel-art-illustration-mummy-pixelated-mummy-mummy-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro -->
-    <link rel="website icon" type="image/jpg" href="zombie.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>KEHLANISTORE</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+
+	<link href="styles/style.css" rel="stylesheet">
+
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body class="forsaken">
-    <main>
-        <header>
-            <h1>Forsaken World: Reckoning</h1>
-            <p class="change">When the darkness takes over and humanity crumbles slowly while the dead rises, What will
-                you wear?</p>
-        </header>
-        <!-- chat cpt -"kun je een glitch button voor me maken met css  -->
-        <div class="container">
-            <a href="choose.html" class="glitch-button" onmouseover="glitch()">PLAY NOW</a>
-        </div>
-    </main>
-    <footer>
-        <ul>
-            <li><a href="mailto:Celestialseven.co@gmail.com"> contact us: c.naharpv@gmail.com </a> </li>
-            <li><a href="https://www.instagram.com/?hl=en">Instagram: ccn17_ </a> </li>
-            <li><a href="https://www.tiktok.com/nl-NL/"> Tiktok: sevenccn </a> </li>
-        </ul>
-    </footer>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="special.html">Subscribe For Special Offers</a></li>
+			</ul>
+		</nav>
+		<h1>KEHLANI</h1>
+		<h2>Crash Tour Collection</h2>
+		<h3>EXCLUSIVELY AT KEHLANISTORE.COM</h3>
+	</header>
+
+
+	<!-- sections zorgen voor betere accessibility doordat screenreaders beter kunnen navigeren door de site op een georganiseerde volgorde: de screenreader announced ook elke section en dan dus de content binnen de section. / het maakt de styling handiger binnen css		 -->
+	<section>
+		<h2> Shop </h2>
+		<ul>
+			<li><a href="CDWAP.html">Crash CD With Autographed Poster</a></li>
+			<li><a href="GMV.html">Green Marble Vinyl</a></li>
+			<li><a href="LECV.html">Limited Edition Clear Vinyl</a></li>
+			<li><a href="CLEWBSV.html">Crash Limited Edition With Black Splatter Vinyl</a></li>
+			<li><a href="CV.html">Crash Vinyl</a></li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>News</h2>
+		<h3>Subscribe To Our Emails</h3>
+		<form action="/subscribe" method="post">
+			<label for="email">Enter your email:</label>
+			<input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+			<button type="submit">Submit</button>
+		</form>
+		<p>
+			I agree to receive personalized updates and marketing messages based on my information, interests,
+			activities,
+			website visits and device data. For more information about how we use your personal information, please see
+			our
+		</p>
+	</section>
+
+	<section>
+		<h2>KEHLANI</h2>
+		<h3>SHOP BY CATEGORY</h3>
+		<p>apparel</p>
+		<p>accesories</p>
+		<p>music</p>
+	</section>
+
+	<section>
+		<h2>CUSTOMER SUPPORT</h2>
+		<p>contact us</p>
+		<p>faq</p>
+		<p>return and refund policy</p>
+	</section>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="privacy.html">PRIVACY POLICY</a></li>
+				<li><a href="terms.html">TERMS OF USE</a></li>
+				<li><a href="cookies.html">COOKIES POLICY</a></li>
+				<li><a href="cookiesset.html">COOKIES SETTINGS</a></li>
+			</ul>
+		</nav>
+		<p>© 2024, Warner-Elektra-Atlantic Corp</p>
+	</footer>
+
+	<script defer src="scripts/script.js"></script>
 </body>
 
 </html>
